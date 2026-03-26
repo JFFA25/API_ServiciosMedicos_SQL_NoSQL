@@ -14,3 +14,7 @@
 
 ![Test](/database/SQL/tests/2.Escenario%20crítico%20con%20pacientes%20alérgicos%20(15,000%20registros).png)
 
+### 3.Pacientes pediátricos con alergias (5,000 registros)
+
+![Test](/database/SQL/tests/3.Pacientes%20pediátricos%20con%20alergias%20(5,000%20registros).png)
+
