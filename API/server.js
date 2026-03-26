@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import { setupSwagger } from "./swagger.js";
 import { conectarMongo, conectarMySQL } from "./db.js"; 
 import poblacionRoutes from './routes/poblacion.routes.js';
+import poblacionNoSQLRoutes from "./routes/nosql.routes.js";
 
 dotenv.config();
 const app = express();
@@ -13,9 +14,10 @@ conectarMongo();
 conectarMySQL();
 
 // Rutas
-app.use("/", poblacionRoutes); // Usas las rutas
-
+app.use("/api", poblacionRoutes);
+app.use("/api", poblacionNoSQLRoutes);
 setupSwagger(app);
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

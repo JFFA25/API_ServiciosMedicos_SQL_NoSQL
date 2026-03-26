@@ -8,7 +8,7 @@ const router = express.Router();
  * /poblar-test:
  *   post:
  *     summary: Generar datos híbridos
- *     tags: [Población]
+ *     tags: [Población SQL]
  *     requestBody:
  *       required: true
  *       content:
