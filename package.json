@@ -1,0 +1,26 @@
+{
+  "name": "api_serviciosmedicos_sql_nosql",
+  "version": "1.0.0",
+  "description": "API REST para ejecutar pruebas de poblacion para el area de servicios medicos usando una base de datos hibrida entre SQL y NoSQL",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node API/server.js",
+    "dev":"nodemon API/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JFFA25/API_ServiciosMedicos_SQL_NoSQL.git"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "mysql2": "^3.20.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
