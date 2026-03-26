@@ -22,3 +22,13 @@ export const pool = mysql.createPool({
   database: process.env.MYSQL_DB,
   port: process.env.MYSQL_PORT
 });
+
+export const conectarMySQL = async () => {
+  try {
+    const connection = await pool.getConnection();
+    console.log("MySQL conectado");
+    connection.release();
+  } catch (error) {
+    console.error("Error MySQL:", error);
+  }
+};
