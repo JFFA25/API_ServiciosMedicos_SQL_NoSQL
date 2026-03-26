@@ -65,3 +65,11 @@ Cliente → Routes → Controllers → Base de Datos → Respuesta
 * Cada archivo de rutas está separado por tipo de base de datos
 * Se mantiene una arquitectura modular y escalable
 * Las rutas utilizan **Express Router** para organizar los endpoints
+
+### Autores
+
+1. **Jose Francisco Flores Amador** /[@JFFA25](https://github.com/JFFA25)
+2. **Edgar Cabrera Velázquez** /[@Edgar-Cbr](https://github.com/Edgar-Cbr)
+3. **Edwin Hernández Campos** /[@Edwinhdzcm](https://github.com/Edwinhdzcm)
+4. **Giovany Raul Pazos Cruz** /[@giova0412](https://github.com/giova0412)
+5. **Uriel Maldonado Bernabe** /[@Urii7895](https://github.com/Urii7895)

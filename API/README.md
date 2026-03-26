@@ -36,3 +36,12 @@ API/
 | Base de Datos SQL | MySQL (mysql2) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) |
 | Base de Datos NoSQL | MongoDB + Mongoose ![MongoDB](https://img.shields.io/badge/mongodb-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Mongoose](https://img.shields.io/badge/mongoose-880000.svg?style=for-the-badge) |
 | Documentación    | Swagger (OpenAPI) ![Swagger](https://img.shields.io/badge/swagger-85EA2D.svg?style=for-the-badge&logo=swagger&logoColor=black) |
+
+
+### Autores
+
+1. **Jose Francisco Flores Amador** /[@JFFA25](https://github.com/JFFA25)
+2. **Edgar Cabrera Velázquez** /[@Edgar-Cbr](https://github.com/Edgar-Cbr)
+3. **Edwin Hernández Campos** /[@Edwinhdzcm](https://github.com/Edwinhdzcm)
+4. **Giovany Raul Pazos Cruz** /[@giova0412](https://github.com/giova0412)
+5. **Uriel Maldonado Bernabe** /[@Urii7895](https://github.com/Urii7895)
