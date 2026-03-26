@@ -48,3 +48,8 @@ POST /api/poblar-nosql
 ### 5.Inserción intensiva de valoraciones 10k de Registros
 
 ![NoSQL](/database/NoSQL/tests/5.Inserción%20intensiva%20de%20valoraciones%2010k%20de%20Registros.png)
+
+
+### Dashboard Actual con 22K de registros previos a los tests
+
+![SQL](/dashboard/Upgrade_Dashboard_NoSQL.jpg)
