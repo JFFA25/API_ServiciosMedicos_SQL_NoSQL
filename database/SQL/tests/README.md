@@ -42,6 +42,10 @@ POST /api/poblar-test
 
 ![Test](/database/SQL/tests/4.Pacientes%20en%20laboratorio%20con%20prioridad%20baja.png)
 
+### 5.Pacientes adultos mayores en hospitalización (4,000 casos graves)
+
+![Test](/database/SQL/tests/5.Pacientes%20adultos%20mayores%20en%20hospitalización%20(casos%20graves).png)
+
 
 ### Autores
 
