@@ -47,6 +47,10 @@ POST /api/poblar-test
 ![Test](/database/SQL/tests/5.Pacientes%20adultos%20mayores%20en%20hospitalización%20(casos%20graves).png)
 
 
+### Dashboard Actual con 40K de registros previos a los tests
+
+![SQL](/dashboard/Upgrade_Dashboard_SQL.jpg)
+
 ### Autores
 
 1. **Jose Francisco Flores Amador** /[@JFFA25](https://github.com/JFFA25)
