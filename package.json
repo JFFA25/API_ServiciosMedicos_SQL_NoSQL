@@ -2,11 +2,11 @@
   "name": "api_serviciosmedicos_sql_nosql",
   "version": "1.0.0",
   "description": "API REST para ejecutar pruebas de poblacion para el area de servicios medicos usando una base de datos hibrida entre SQL y NoSQL",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node API/app.js",
-    "dev":"nodemon API/app.js"
+    "start": "node API/server.js",
+    "dev":"nodemon API/server.js"
   },
   "repository": {
     "type": "git",

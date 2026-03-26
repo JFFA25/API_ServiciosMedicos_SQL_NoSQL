@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import swaggerUi from "swagger-ui-express";
 import swaggerJsdoc from "swagger-jsdoc";
 
-import { conectarMongo, pool } from "../database/db.js";
+import { conectarMongo, pool } from "../db.js";
 
 dotenv.config();
 
