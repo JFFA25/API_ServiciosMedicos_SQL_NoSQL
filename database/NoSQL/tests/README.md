@@ -33,4 +33,8 @@ POST /api/poblar-nosql
 
 ![NoSQL](/database/NoSQL/tests/1.Inserción%20básica%20de%20valoraciones%20(1,000%20registros).png)
 
+### 2. Insercion de valoraciones criticas 3k de Registros
+
+![NoSQL](/database/NoSQL/tests/2.Insercion%20de%20valoraciones%20criticas3k.png)
+
 
