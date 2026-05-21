@@ -24,6 +24,89 @@ SQL/
 │── structure/   # Estructura de la base de datos
 ```
 
+## Importación de Respaldos
+
+Los respaldos de la base de datos se encuentran en la carpeta:
+
+```bash
+SQL/
+└── backups/
+    ├── backup_estructura.sql
+    └── backup_poblacion.sql
+```
+
+### Opción 1: Importar desde MySQL Workbench
+
+1. Abrir **MySQL Workbench**.
+2. Conectarse al servidor MySQL.
+3. Crear una base de datos vacía:
+
+```sql
+CREATE DATABASE servicios_medicos;
+USE servicios_medicos;
+```
+
+4. Ir a **Server → Data Import**.
+5. Seleccionar **Import from Self-Contained File**.
+6. Importar primero:
+
+```text
+backup_estructura.sql
+```
+
+7. Ejecutar la importación.
+8. Repetir el proceso con:
+
+```text
+backup_poblacion.sql
+```
+
+9. Verificar que las tablas y registros hayan sido creados correctamente.
+
+### Opción 2: Importar desde la terminal
+
+Crear la base de datos:
+
+```sql
+CREATE DATABASE servicios_medicos;
+```
+
+Importar la estructura:
+
+```bash
+mysql -u root -p servicios_medicos < backups/backup_estructura.sql
+```
+
+Importar los datos:
+
+```bash
+mysql -u root -p servicios_medicos < backups/backup_poblacion.sql
+```
+
+### Orden recomendado
+
+1. Importar `backup_estructura.sql`
+2. Importar `backup_poblacion.sql`
+3. Ejecutar los Stored Procedures ubicados en `routines/` (si aplica)
+
+### Verificación
+
+Comprobar que las tablas fueron creadas correctamente:
+
+```sql
+SHOW TABLES;
+```
+
+Consultar algunos registros:
+
+```sql
+SELECT * FROM nombre_tabla LIMIT 10;
+```
+
+## Resultado esperado
+
+Una vez importados ambos respaldos, la base de datos quedará completamente configurada con su estructura, relaciones y datos iniciales necesarios para el funcionamiento de la API.
+
 ## Componentes
 
 ### backups/
