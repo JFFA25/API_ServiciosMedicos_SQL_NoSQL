@@ -17,6 +17,122 @@ El sistema permite:
 *  Analizar rendimiento entre ambos modelos de base de datos
 *  Simular escenarios reales del sector médico
 
+## Guía de Documentación del Proyecto
+
+La documentación del proyecto se encuentra distribuida en distintos módulos para facilitar la instalación, configuración y ejecución del sistema.
+
+### 1. Levantar la API
+
+Para configurar las variables de entorno, instalar dependencias y ejecutar el servidor, consultar:
+
+```text
+API/README.md
+```
+
+En este documento se describe:
+
+- Requisitos previos
+- Instalación de dependencias
+- Configuración del archivo `.env`
+- Conexión con MySQL y MongoDB
+- Ejecución en modo desarrollo y producción
+- Uso de Swagger
+- Solución de errores frecuentes
+
+### 2. Configuración de la Base de Datos SQL
+
+Para crear la base de datos relacional, importar estructuras y restaurar respaldos, consultar:
+
+```text
+database/SQL/README.md
+```
+
+En este documento se encuentra:
+
+- Creación de la base de datos MySQL
+- Scripts de estructura
+- Procedimientos almacenados
+- Restauración de respaldos
+- Verificación de tablas y relaciones
+
+Archivos relacionados:
+
+```text
+database/SQL/
+├── structure/
+├── routines/
+└── backups/
+```
+
+### 3. Configuración de la Base de Datos NoSQL
+
+Para crear la base de datos documental y la colección de valoraciones en MongoDB, consultar:
+
+```text
+database/NoSQL/README.md
+```
+
+Este documento incluye:
+
+- Uso de mongosh
+- Creación de la base de datos
+- Creación de la colección `valoraciones`
+- Schema de validación
+- Inserción de documentos de prueba
+- Consultas básicas
+- Restauración de respaldos JSON
+
+Archivos relacionados:
+
+```text
+database/NoSQL/
+└── backups/
+```
+
+### 4. Documentación de Endpoints
+
+Una vez iniciada la API, la documentación interactiva de los servicios REST estará disponible mediante Swagger:
+
+```text
+http://localhost:3000/api-docs
+```
+
+Desde esta interfaz es posible:
+
+- Consultar endpoints
+- Revisar parámetros
+- Visualizar respuestas
+- Ejecutar pruebas directamente desde el navegador
+
+### Flujo Recomendado de Instalación
+
+```text
+1. Consultar database/SQL/README.md
+   └─ Crear base de datos MySQL
+
+2. Consultar database/NoSQL/README.md
+   └─ Crear base de datos MongoDB y colección valoraciones
+
+3. Consultar API/README.md
+   └─ Configurar variables de entorno
+   └─ Instalar dependencias
+   └─ Ejecutar la API
+
+4. Abrir Swagger
+   └─ http://localhost:3000/api-docs
+```
+
+Siguiendo esta secuencia es posible desplegar completamente el sistema híbrido SQL + NoSQL y comenzar a realizar pruebas de generación de datos.
+
+## Posibles Test a Arealizar
+| Test | Descripción |
+|---|---|
+| Test 1 | Generación automática de 10,000 registros clínicos en entorno hospitalario |
+| Test 2 | Generación de 15,000 pacientes alérgicos con edades entre 10 y 70 años |
+| Test 3 | Generación de 5,000 pacientes pediátricos con antecedentes alérgicos |
+| Test 4 | Generación de 4,000 pacientes asignados al servicio de Laboratorio con prioridad Baja |
+| Test 5 | Generación de 4,000 pacientes adultos mayores en Hospitalización clasificados como casos graves |
+
 ## Autores
 
 1. **Jose Francisco Flores Amador** / [@JFFA25](https://github.com/JFFA25)
