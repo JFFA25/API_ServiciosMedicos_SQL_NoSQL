@@ -94,7 +94,7 @@ database/NoSQL/
 Una vez iniciada la API, la documentación interactiva de los servicios REST estará disponible mediante Swagger:
 
 ```text
-http://localhost:3000/api-docs
+http://localhost:3000/api/docs
 ```
 
 Desde esta interfaz es posible:
@@ -119,7 +119,7 @@ Desde esta interfaz es posible:
    └─ Ejecutar la API
 
 4. Abrir Swagger
-   └─ http://localhost:3000/api-docs
+   └─ http://localhost:3000/api/docs
 ```
 
 Siguiendo esta secuencia es posible desplegar completamente el sistema híbrido SQL + NoSQL y comenzar a realizar pruebas de generación de datos.
