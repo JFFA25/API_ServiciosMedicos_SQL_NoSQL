@@ -124,6 +124,15 @@ Desde esta interfaz es posible:
 
 Siguiendo esta secuencia es posible desplegar completamente el sistema híbrido SQL + NoSQL y comenzar a realizar pruebas de generación de datos.
 
+## Posibles Test a Arealizar
+| Test | Descripción |
+|---|---|
+| Test 1 | Generación automática de 10,000 registros clínicos en entorno hospitalario |
+| Test 2 | Generación de 15,000 pacientes alérgicos con edades entre 10 y 70 años |
+| Test 3 | Generación de 5,000 pacientes pediátricos con antecedentes alérgicos |
+| Test 4 | Generación de 4,000 pacientes asignados al servicio de Laboratorio con prioridad Baja |
+| Test 5 | Generación de 4,000 pacientes adultos mayores en Hospitalización clasificados como casos graves |
+
 ## Autores
 
 1. **Jose Francisco Flores Amador** / [@JFFA25](https://github.com/JFFA25)
