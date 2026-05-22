@@ -143,7 +143,7 @@ http://localhost:3000
 La documentación interactiva puede consultarse desde:
 
 ```text
-http://localhost:3000/api-docs
+http://localhost:3000/api/docs
 ```
 
 Desde Swagger UI es posible visualizar y probar todos los endpoints disponibles.
